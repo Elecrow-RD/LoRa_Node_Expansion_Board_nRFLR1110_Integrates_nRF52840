@@ -57,8 +57,8 @@ Radio radio = new RadioModule();
 */
 
 void setup() {
-  pinMode(19, OUTPUT);
-  digitalWrite(19, HIGH);  //GPS Switch
+  pinMode(31, OUTPUT);
+  digitalWrite(31, HIGH);  //GPS Switch
 
   Serial.begin(115200);
   while(!Serial);
